@@ -1,0 +1,5 @@
+[
+  "18 abundant-supply limiting periods match analytic merge/tail and two-slot capacity formulas",
+  "90 policies satisfy merge-depth and mean supply-rate lower bounds; handoff exposure retained",
+  "D1 is invariant to the L/D2 source-release toggle"
+]
