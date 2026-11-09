@@ -1,0 +1,36 @@
+{
+  "p": 0.0001,
+  "target": 7.3e-14,
+  "S": 1.0,
+  "T": 1.0,
+  "dx1": [
+    5,
+    15
+  ],
+  "dz1": "odd 3..dx1",
+  "dm1": [
+    3,
+    15
+  ],
+  "dp1": "odd 3..min(dx1,15)",
+  "nl1": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "quality_cap": "pL1 <= 1.5 sqrt(target/28), rejection < 0.25",
+  "Qcap": 26000,
+  "Tcap": 500,
+  "level1_candidates": 784,
+  "level2_ranges_dx_dm_dp": [
+    11,
+    21,
+    5,
+    15,
+    5,
+    15
+  ]
+}

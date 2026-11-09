@@ -1,0 +1,50 @@
+{
+  "records": 32,
+  "counts_match": true,
+  "raw_sha256": "9f198bd7e9604e06f662f58e192ffc641f3cc4caa66b7fb73b6eedeab90321ac",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "numba": "0.68.1",
+    "stim": "1.16.0",
+    "sinter": "1.16.0",
+    "pymatching": "2.4.0",
+    "mpmath": "1.4.1",
+    "matplotlib": "3.10.8"
+  },
+  "policy_revision": {
+    "date": "2026-11-03",
+    "scenarios": 4,
+    "reference_candidates": 412,
+    "policies": 6,
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "batches_per_seed": 4096,
+    "warmup_batches": 1024,
+    "new_distance_search": false,
+    "output_storage_area_in_overlap": "not charged; counterfactual timing sensitivity",
+    "storage_interval": "max(reference-policy period, alternative-policy period)/4",
+    "source_sha256": {
+      "make_report.py": "08f194fedfe24794b7b22f880053c0193255c35fd4a9479240b96aeec2e9ceee",
+      "model.py": "86207678faa7c65d4d23244906e201f1d876f7263d997bf58aa9879272443f47",
+      "checks.py": "3433c80864e1359f9a237762e3b6e0b9e4625c5c08e1cd98a0ba233b942a0a83",
+      "calibrate.py": "27b3529efde47742f1803a92dbe95b65f73de07a9b26047a7266aa53c1a4786a",
+      "geometry_probe.py": "d2a24a1a59f34eeb87832d220225de955e55ce2e852f20f54ad2793bb51eed39",
+      "timing.py": "8f4646cc0ace7c18328ba65dc27d05c67daaf92c2a7bf7013b58b5936d7a2753",
+      "schedule_sensitivity.py": "e1d998949bfea1d2b7af0d7557d650414efeae6456a04c6799b8e151c440e77c",
+      "check_schedule_policies.py": "9a0f4df8ac45579aeecbb7624314cfc34c62a5a3e5147be89d7d00a5879ba8be",
+      "search.py": "e964637bc8d7f648f05ac225a40ef13c1b66d117d736ff5cab98f2e39b3a6887",
+      "precision_check.py": "97f844464dbcff2ae343ce90d51ec867dbdaf4325b5efa7d2766b19a49cb3732",
+      "validate_fronts.py": "b37450a105fde1842ca66757fc3a9b0b4960ea2e1129736e664a85e9eaca3386"
+    }
+  }
+}

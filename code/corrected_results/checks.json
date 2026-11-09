@@ -1,0 +1,19 @@
+[
+  "40 level-1 comparisons with the supplied density-matrix implementation passed",
+  "8-input distillation matches its exact accepted-error polynomial",
+  "all 15 scheduling checks satisfy supply-rate and nonnegative-residency constraints",
+  {
+    "dp1": 5,
+    "level1": [
+      7.145470807523468e-07,
+      0.04160533950159978
+    ]
+  },
+  {
+    "dp1": 7,
+    "level1": [
+      4.3700429445477196e-07,
+      0.03651956671353552
+    ]
+  }
+]
